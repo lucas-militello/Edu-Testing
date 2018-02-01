@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Edu-user</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">login</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://educativa.app2.keetup.com/login<datalist><option>https://educativa.app2.keetup.com/login</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=username<datalist><option>name=username</option><option>css=input[name="username"]</option><option>//input[@name='username']</option><option>//form[@id='loginFormId']/div/div/input</option><option>//input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=username<datalist><option>name=username</option><option>css=input[name="username"]</option><option>//input[@name='username']</option><option>//form[@id='loginFormId']/div/div/input</option><option>//input</option></datalist></td><td>nienow.samanta@johnston.com</td>
+</tr>
+<tr><td>click</td><td>name=password<datalist><option>name=password</option><option>css=input[name="password"]</option><option>//input[@name='password']</option><option>//form[@id='loginFormId']/div/div[2]/input</option><option>//div[2]/input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=password<datalist><option>name=password</option><option>css=input[name="password"]</option><option>//input[@name='password']</option><option>//form[@id='loginFormId']/div/div[2]/input</option><option>//div[2]/input</option></datalist></td><td>apu742</td>
+</tr>
+<tr><td>click</td><td>css=button.btn.btn-lg.btn-primary.btn-block<datalist><option>css=button.btn.btn-lg.btn-primary.btn-block</option><option>//button[@type='submit']</option><option>//form[@id='loginFormId']/button</option><option>//button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">comentar-valorar</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://educativa.app2.keetup.com/dashboard<datalist><option>https://educativa.app2.keetup.com/dashboard</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>css=textarea[name="description"]<datalist><option>css=textarea[name="description"]</option><option>//textarea[@name='description']</option><option>//form[@id='postFormId']/textarea</option><option>//textarea</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>css=textarea[name="description"]<datalist><option>css=textarea[name="description"]</option><option>//textarea[@name='description']</option><option>//form[@id='postFormId']/textarea</option><option>//textarea</option></datalist></td><td>esto es un comentario automatico simple</td>
+</tr>
+<tr><td>click</td><td>css=button.btn.btn-primary.btn-sm.mn.post-form-btn.nb-left<datalist><option>css=button.btn.btn-primary.btn-sm.mn.post-form-btn.nb-left</option><option>//form[@id='postFormId']/button</option><option>//form/button</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//i[4]<datalist><option>//i[4]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//popover-content/div/div[3]/a/i[4]<datalist><option>//popover-content/div/div[3]/a/i[4]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=comment<datalist><option>name=comment</option><option>css=input[name="comment"]</option><option>//input[@name='comment']</option><option>//form[@id='postFormId']/div/div/input</option><option>//timeline-comment-box/div/div/form/div/div/input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=comment<datalist><option>name=comment</option><option>css=input[name="comment"]</option><option>//input[@name='comment']</option><option>//form[@id='postFormId']/div/div/input</option><option>//timeline-comment-box/div/div/form/div/div/input</option></datalist></td><td>fin!</td>
+</tr>
+<tr><td>submit</td><td>id=postFormId<datalist><option>id=postFormId</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">comentar-hashtag</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://educativa.app2.keetup.com/dashboard<datalist><option>https://educativa.app2.keetup.com/dashboard</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>css=textarea[name="description"]<datalist><option>css=textarea[name="description"]</option><option>//textarea[@name='description']</option><option>//form[@id='postFormId']/textarea</option><option>//textarea</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>css=textarea[name="description"]<datalist><option>css=textarea[name="description"]</option><option>//textarea[@name='description']</option><option>//form[@id='postFormId']/textarea</option><option>//textarea</option></datalist></td><td>#TestAutomatico esto es una prueba de hashtag</td>
+</tr>
+<tr><td>click</td><td>css=button.btn.btn-primary.btn-sm.mn.post-form-btn.nb-left<datalist><option>css=button.btn.btn-primary.btn-sm.mn.post-form-btn.nb-left</option><option>//form[@id='postFormId']/button</option><option>//form/button</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=#TestAutomatico<datalist><option>link=#TestAutomatico</option><option>css=strong &gt; a</option><option>//a[contains(text(),'#TestAutomatico')]</option><option>//a[contains(@href, 'search?text="TestAutomatico"&amp;hashtag=1&amp;group=null')]</option><option>//strong/a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">seguir-valorar-comentar</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://educativa.app2.keetup.com/dashboard<datalist><option>https://educativa.app2.keetup.com/dashboard</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Usuarios<datalist><option>link=Usuarios</option><option>//a[contains(text(),'Usuarios')]</option><option>//a[contains(@href, '/searchusers')]</option><option>//li[3]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>css=div.input-group.full-width &gt; input[name="searchText"]<datalist><option>css=div.input-group.full-width &gt; input[name="searchText"]</option><option>xpath=(//input[@name='searchText'])[2]</option><option>//div[2]/div/div/input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>css=div.input-group.full-width &gt; input[name="searchText"]<datalist><option>css=div.input-group.full-width &gt; input[name="searchText"]</option><option>xpath=(//input[@name='searchText'])[2]</option><option>//div[2]/div/div/input</option></datalist></td><td>superyo</td>
+</tr>
+<tr><td>click</td><td>css=button.btn.btn-sm.btn-primary<datalist><option>css=button.btn.btn-sm.btn-primary</option><option>xpath=(//button[@type='submit'])[2]</option><option>//div[2]/div/div/span/button</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=yo, superyo<datalist><option>link=yo, superyo</option><option>css=a.h4</option><option>//a[contains(text(),'yo, superyo')]</option><option>xpath=(//a[contains(@href, '/users/35')])[2]</option><option>//li/div/a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>css=a.btn.btn-rounded.btn-success.btn-sm &gt; span<datalist><option>css=a.btn.btn-rounded.btn-success.btn-sm &gt; span</option><option>//follow-button/a/span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//i[5]<datalist><option>//i[5]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[3]/a/i[4]<datalist><option>//div[3]/a/i[4]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=comment<datalist><option>name=comment</option><option>css=input[name="comment"]</option><option>//input[@name='comment']</option><option>//form[@id='postFormId']/div/div/input</option><option>//timeline-comment-box/div/div/form/div/div/input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=comment<datalist><option>name=comment</option><option>css=input[name="comment"]</option><option>//input[@name='comment']</option><option>//form[@id='postFormId']/div/div/input</option><option>//timeline-comment-box/div/div/form/div/div/input</option></datalist></td><td>buena publicación...(Esto es automatico)</td>
+</tr>
+<tr><td>click</td><td>css=button.btn.btn-sm.btn-primary<datalist><option>css=button.btn.btn-sm.btn-primary</option><option>xpath=(//button[@type='submit'])[2]</option><option>//form[@id='postFormId']/div/div/span/button</option><option>//timeline-comment-box/div/div/form/div/div/span/button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">logout</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://educativa.app2.keetup.com/dashboard<datalist><option>https://educativa.app2.keetup.com/dashboard</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>css=b.caret<datalist><option>css=b.caret</option><option>//li[2]/a/b</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Cerrar sesión<datalist><option>link=Cerrar sesión</option><option>//a[contains(text(),'Cerrar sesión')]</option><option>//a[contains(@href, '/login')]</option><option>//li[2]/ul/li[3]/a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
